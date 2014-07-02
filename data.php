@@ -3,7 +3,7 @@
 $requested_page = $_POST['page_num'];
 $set_limit = (($requested_page - 1) * 2) . ",2";
 
-$con = mysql_connect("localhost", "root", "root");
+$con = mysql_connect("localhost", "username", "password");
 mysql_select_db("infinitescroll");
 
 

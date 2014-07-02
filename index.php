@@ -1,5 +1,5 @@
 <?php
-$con = mysql_connect("localhost", "root", "root");
+$con = mysql_connect("localhost", "username", "password");
 mysql_select_db("infinitescroll");
 
 $result = mysql_query("select SQL_CALC_FOUND_ROWS * from photos order by id asc limit 2");
