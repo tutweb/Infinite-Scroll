@@ -9,23 +9,23 @@ body{
     color: #fff;
 }
 #result{
-	width: 660px;
-	margin: 20px auto;
-	padding: 10px;
-	background: #eee;
-	border: 1px solid #ccc;
-	overflow: hidden;
+    width: 660px;
+    margin: 20px auto;
+    padding: 10px;
+    background: #eee;
+    border: 1px solid #ccc;
+    overflow: hidden;
 }
 
 #result div{
-	width: 620px;
-	margin: 10px;
-	float: left;
+    width: 620px;
+    margin: 10px;
+    float: left;
 }
 
 #result div img{
-	width: 640px;
-	height: auto;
+    width: 640px;
+    height: auto;
 }
 #result div img:hover{
     opacity: .8;
@@ -41,8 +41,8 @@ body{
     left: 1000px;
     padding: 10px;
     position: fixed;
-    top: 100px;
-
+    bottom: 100px;
+    z-index: 99999;
 }
 #no-more{
     background: none repeat scroll 0 0 #666;
@@ -52,6 +52,6 @@ body{
     left: 1000px;
     padding: 10px;
     position: fixed;
-    top: 100px;
-
+    bottom: 100px;
+    z-index: 99999;
 }
